@@ -16,7 +16,8 @@ PAGE_TITLE = "Digital CV | Tasin Naveed"
 PAGE_ICON = ":wave:"
 NAME = "Tasin Naveed"
 DESCRIPTION = """
-SecOps | DevOps | DataOps
+Skilled IT professional with broad base of experience in Data Analysis and Information
+Security. Resolves problems quickly, delivering high levels of customer satisfaction. Excellent knowledge of technical support and operations.
 """
 EMAIL = "tan7@njit.edu"
 SOCIAL_MEDIA = {
@@ -52,7 +53,7 @@ with col1:
 
 with col2:
     st.title(NAME)
-    st.subheader(DESCRIPTION)
+    st.write(DESCRIPTION)
     st.download_button(
         label=" 📄 Download Resume",
         data=PDFbyte,
