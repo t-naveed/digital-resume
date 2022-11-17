@@ -59,7 +59,7 @@ with col2:
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
-    st.write("📫", EMAIL)
+    st.write(":incoming_envelope:", EMAIL)
 
 
 # --- SOCIAL LINKS ---
