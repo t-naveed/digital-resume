@@ -48,10 +48,10 @@ profile_pic = Image.open(profile_pic)
 
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small")
-with col1:
+with col2:
     st.image(profile_pic, width=230)
 
-with col2:
+with col1:
     st.title(NAME)
     st.write(DESCRIPTION)
     st.download_button(
